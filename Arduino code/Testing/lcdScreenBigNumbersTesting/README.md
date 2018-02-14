@@ -1,3 +1,4 @@
+# Design Notes
 ```
 
 Numeral designs: (Use whichever looks better on LCD. Possibility of using block character instead of # if the LCD supports it) - Update: LCD doesn't support block character. Use custom character of a block instead
