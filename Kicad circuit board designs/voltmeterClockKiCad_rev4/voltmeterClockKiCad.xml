@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Kicad circuit board designs\voltmeterClockKiCad_rev4/voltmeterClockKiCad.sch</source>
+    <date>23/03/2017 23:58:09</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Voltmeter Clock</title>
+        <company/>
+        <rev>1</rev>
+        <date>2017-03-19</date>
+        <source>voltmeterClockKiCad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P3">
+      <value>ADC</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D74FB3</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>ADC</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7505C</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>COM</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D75238</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D754D1</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Pro_Mini:Socket_Strip_Arduino_1x12</footprint>
+      <libsource lib="conn" part="CONN_01X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D755F3</tstamp>
+    </comp>
+    <comp ref="DS6">
+      <value>2004_LCD_DISPLAY</value>
+      <footprint>VoltmeterDisplayFootprintLibrary:2004_LCD_DISPLAY_SOCKET</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="2004_LCD_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE0833</tstamp>
+    </comp>
+    <comp ref="DS1">
+      <value>VU_SECS</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE23C7</tstamp>
+    </comp>
+    <comp ref="DS2">
+      <value>VU_MINS</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE242C</tstamp>
+    </comp>
+    <comp ref="DS3">
+      <value>VU_HOURS</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE246B</tstamp>
+    </comp>
+    <comp ref="DS4">
+      <value>VU_DAY</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE250B</tstamp>
+    </comp>
+    <comp ref="DS5">
+      <value>VU_MONTH</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE25F2</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE5694</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE6BCA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE6D22</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE6E69</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>47uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CE6FCB</tstamp>
+    </comp>
+    <comp ref="PIR1">
+      <value>PIR_SENSOR</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="PIR_SENSOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEC32C</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>PUSH_BUTTON</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="PUSH_BUTTON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEE107</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEF03B</tstamp>
+    </comp>
+    <comp ref="RTC1">
+      <value>RTC_DS3231</value>
+      <footprint>VoltmeterDisplayFootprintLibrary:RTC_DS3231</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="RTC_DS3231"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF039A</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>USB_OTG</value>
+      <footprint>Connectors:USB_Micro-B</footprint>
+      <libsource lib="conn" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF3303</tstamp>
+    </comp>
+    <comp ref="BT2">
+      <value>1.2V_AAA_Battery</value>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF65D2</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>1.2V_AAA_Battery</value>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF6D36</tstamp>
+    </comp>
+    <comp ref="BT3">
+      <value>1.2V_AAA_Battery</value>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF6D9A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF81BA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFD909</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1000R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFE847</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Serial_Conn</value>
+      <footprint>Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0B4E0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEDF33</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CEECB4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF0B76</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF0EB0</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CF158A</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PNP_CBE</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Wide</footprint>
+      <libsource lib="device" part="Q_PNP_CBE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D2312A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10000R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D26B54</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1000R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D28ACA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1000R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D2A037</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>Battery_Conn</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D410E8</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>Backlight_Conn</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFEA4B</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>ON/OFF_SWITCH</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="VoltmeterDisplayComponentLibrary" part="PUSH_BUTTON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D09ED1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="VoltmeterDisplayComponentLibrary" part="2004_LCD_DISPLAY">
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">2004_LCD_DISPLAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS(GND)" type="power_in"/>
+        <pin num="2" name="VDD(VCC)" type="power_in"/>
+        <pin num="3" name="V0" type="input"/>
+        <pin num="4" name="RS" type="input"/>
+        <pin num="5" name="RW" type="input"/>
+        <pin num="6" name="E" type="input"/>
+        <pin num="11" name="D4" type="input"/>
+        <pin num="12" name="D5" type="input"/>
+        <pin num="13" name="D6" type="input"/>
+        <pin num="14" name="D7" type="input"/>
+        <pin num="15" name="A" type="power_in"/>
+        <pin num="16" name="K(GND)" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoltmeterDisplayComponentLibrary" part="ANALOGUE_VU_DISPLAY">
+      <fields>
+        <field name="Reference">DS</field>
+        <field name="Value">ANALOGUE_VU_DISPLAY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X12">
+      <description>Connector, single row, 01x12</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X12</fp>
+        <fp>Pin_Header_Angled_1X12</fp>
+        <fp>Socket_Strip_Straight_1X12</fp>
+        <fp>Socket_Strip_Angled_1X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoltmeterDisplayComponentLibrary" part="PIR_SENSOR">
+      <fields>
+        <field name="Reference">PIR</field>
+        <field name="Value">PIR_SENSOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoltmeterDisplayComponentLibrary" part="PUSH_BUTTON">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">PUSH_BUTTON</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PIN1" type="BiDi"/>
+        <pin num="2" name="PIN2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_PNP_CBE">
+      <description>Transistor PNP (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VoltmeterDisplayComponentLibrary" part="RTC_DS3231">
+      <fields>
+        <field name="Reference">RTC</field>
+        <field name="Value">RTC_DS3231</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_OTG">
+      <description>USB micro/mini connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="VoltmeterDisplayComponentLibrary">
+      <uri>C:\Kicad circuit board designs\voltmeterClockKiCad_rev4\VoltmeterDisplayComponentLibrary.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/13(SCK)">
+      <node ref="P4" pin="9"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="R10" pin="1"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="3" name="Net-(BT1-Pad2)">
+      <node ref="BT1" pin="2"/>
+      <node ref="BT2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(BT2-Pad2)">
+      <node ref="BT3" pin="1"/>
+      <node ref="BT2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="6" name="/1(Tx)">
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="7" name="/0(Rx)">
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P6" pin="3"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="P4" pin="4"/>
+      <node ref="PIR1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RTC1" pin="2"/>
+      <node ref="P6" pin="4"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="9" name="Net-(C1-Pad1)">
+      <node ref="DS1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="10" name="/10(**/SS)">
+      <node ref="R5" pin="1"/>
+      <node ref="P4" pin="12"/>
+    </net>
+    <net code="11" name="Net-(C5-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="DS5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="DS2" pin="1"/>
+    </net>
+    <net code="13" name="/4">
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="14" name="/11(**/MOSI)">
+      <node ref="P4" pin="11"/>
+      <node ref="DS6" pin="4"/>
+    </net>
+    <net code="15" name="/12(MISO)">
+      <node ref="P4" pin="10"/>
+      <node ref="DS6" pin="6"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="DS4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(C3-Pad1)">
+      <node ref="DS3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="18" name="/A7">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="P2" pin="6"/>
+      <node ref="DS4" pin="2"/>
+      <node ref="DS3" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="P2" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="DS6" pin="1"/>
+      <node ref="DS6" pin="3"/>
+      <node ref="DS6" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="DS6" pin="16"/>
+      <node ref="P1" pin="4"/>
+      <node ref="S1" pin="2"/>
+      <node ref="DS1" pin="2"/>
+      <node ref="DS2" pin="2"/>
+      <node ref="DS5" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="RTC1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P6" pin="6"/>
+      <node ref="P6" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="PIR1" pin="3"/>
+      <node ref="C5" pin="2"/>
+      <node ref="BT3" pin="2"/>
+      <node ref="P7" pin="6"/>
+      <node ref="P7" pin="5"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="21" name="Net-(DS6-Pad2)">
+      <node ref="DS6" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="22" name="Net-(DS6-Pad15)">
+      <node ref="R7" pin="2"/>
+      <node ref="DS6" pin="15"/>
+    </net>
+    <net code="23" name="Net-(P9-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="P9" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="24" name="/RAW">
+      <node ref="S2" pin="2"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="25" name="/ONOFF_RAW">
+      <node ref="BT1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="P8" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="26" name="/Reset">
+      <node ref="P4" pin="3"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="27" name="/A3">
+      <node ref="P4" pin="5"/>
+      <node ref="DS6" pin="14"/>
+    </net>
+    <net code="28" name="/A2">
+      <node ref="DS6" pin="13"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="29" name="/A1">
+      <node ref="P4" pin="7"/>
+      <node ref="DS6" pin="12"/>
+    </net>
+    <net code="30" name="/A0">
+      <node ref="DS6" pin="11"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="31" name="/2">
+      <node ref="S1" pin="1"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="32" name="/3(**)">
+      <node ref="P1" pin="6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="33" name="/5(**)">
+      <node ref="P1" pin="8"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="34" name="/6(**)">
+      <node ref="P1" pin="9"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="35" name="/7">
+      <node ref="R8" pin="1"/>
+      <node ref="P1" pin="10"/>
+    </net>
+    <net code="36" name="/8">
+      <node ref="P1" pin="11"/>
+      <node ref="PIR1" pin="2"/>
+    </net>
+    <net code="37" name="/9(**)">
+      <node ref="P1" pin="12"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="38" name="/DTR">
+      <node ref="P6" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="39" name="/A6">
+      <node ref="RV1" pin="2"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="40" name="/A4">
+      <node ref="RTC1" pin="3"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="41" name="/A5">
+      <node ref="RTC1" pin="4"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="42" name="Net-(P7-Pad4)">
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="43" name="Net-(P7-Pad3)">
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="44" name="Net-(P7-Pad2)">
+      <node ref="P7" pin="2"/>
+    </net>
+  </nets>
+</export>
